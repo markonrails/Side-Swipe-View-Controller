@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7486D5BF15FDB72C008D4836 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7486D5BE15FDB72C008D4836 /* UIKit.framework */; };
+		7486D5C115FDB72C008D4836 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7486D5C015FDB72C008D4836 /* Foundation.framework */; };
+		7486D5C315FDB72C008D4836 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7486D5C215FDB72C008D4836 /* CoreGraphics.framework */; };
+		7486D5C915FDB72C008D4836 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7486D5C715FDB72C008D4836 /* InfoPlist.strings */; };
+		7486D5CB15FDB72C008D4836 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7486D5CA15FDB72C008D4836 /* main.m */; };
+		7486D5CF15FDB72C008D4836 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7486D5CE15FDB72C008D4836 /* AppDelegate.m */; };
+		7486D5D215FDB72C008D4836 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7486D5D115FDB72C008D4836 /* ViewController.m */; };
+		7486D5D515FDB72C008D4836 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7486D5D315FDB72C008D4836 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7486D5BA15FDB72C008D4836 /* SideSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SideSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7486D5BE15FDB72C008D4836 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7486D5C015FDB72C008D4836 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7486D5C215FDB72C008D4836 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7486D5C615FDB72C008D4836 /* SideSwipe-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SideSwipe-Info.plist"; sourceTree = "<group>"; };
+		7486D5C815FDB72C008D4836 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7486D5CA15FDB72C008D4836 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7486D5CC15FDB72C008D4836 /* SideSwipe-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SideSwipe-Prefix.pch"; sourceTree = "<group>"; };
+		7486D5CD15FDB72C008D4836 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7486D5CE15FDB72C008D4836 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7486D5D015FDB72C008D4836 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7486D5D115FDB72C008D4836 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7486D5D415FDB72C008D4836 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7486D5B715FDB72C008D4836 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7486D5BF15FDB72C008D4836 /* UIKit.framework in Frameworks */,
+				7486D5C115FDB72C008D4836 /* Foundation.framework in Frameworks */,
+				7486D5C315FDB72C008D4836 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7486D5AF15FDB72C008D4836 = {
+			isa = PBXGroup;
+			children = (
+				7486D5C415FDB72C008D4836 /* SideSwipe */,
+				7486D5BD15FDB72C008D4836 /* Frameworks */,
+				7486D5BB15FDB72C008D4836 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7486D5BB15FDB72C008D4836 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7486D5BA15FDB72C008D4836 /* SideSwipe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7486D5BD15FDB72C008D4836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7486D5BE15FDB72C008D4836 /* UIKit.framework */,
+				7486D5C015FDB72C008D4836 /* Foundation.framework */,
+				7486D5C215FDB72C008D4836 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7486D5C415FDB72C008D4836 /* SideSwipe */ = {
+			isa = PBXGroup;
+			children = (
+				7486D5CD15FDB72C008D4836 /* AppDelegate.h */,
+				7486D5CE15FDB72C008D4836 /* AppDelegate.m */,
+				7486D5D015FDB72C008D4836 /* ViewController.h */,
+				7486D5D115FDB72C008D4836 /* ViewController.m */,
+				7486D5D315FDB72C008D4836 /* ViewController.xib */,
+				7486D5C515FDB72C008D4836 /* Supporting Files */,
+			);
+			path = SideSwipe;
+			sourceTree = "<group>";
+		};
+		7486D5C515FDB72C008D4836 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7486D5C615FDB72C008D4836 /* SideSwipe-Info.plist */,
+				7486D5C715FDB72C008D4836 /* InfoPlist.strings */,
+				7486D5CA15FDB72C008D4836 /* main.m */,
+				7486D5CC15FDB72C008D4836 /* SideSwipe-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7486D5B915FDB72C008D4836 /* SideSwipe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7486D5D815FDB72C008D4836 /* Build configuration list for PBXNativeTarget "SideSwipe" */;
+			buildPhases = (
+				7486D5B615FDB72C008D4836 /* Sources */,
+				7486D5B715FDB72C008D4836 /* Frameworks */,
+				7486D5B815FDB72C008D4836 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideSwipe;
+			productName = SideSwipe;
+			productReference = 7486D5BA15FDB72C008D4836 /* SideSwipe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7486D5B115FDB72C008D4836 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 7486D5B415FDB72C008D4836 /* Build configuration list for PBXProject "SideSwipe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7486D5AF15FDB72C008D4836;
+			productRefGroup = 7486D5BB15FDB72C008D4836 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7486D5B915FDB72C008D4836 /* SideSwipe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7486D5B815FDB72C008D4836 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7486D5C915FDB72C008D4836 /* InfoPlist.strings in Resources */,
+				7486D5D515FDB72C008D4836 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7486D5B615FDB72C008D4836 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7486D5CB15FDB72C008D4836 /* main.m in Sources */,
+				7486D5CF15FDB72C008D4836 /* AppDelegate.m in Sources */,
+				7486D5D215FDB72C008D4836 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7486D5C715FDB72C008D4836 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7486D5C815FDB72C008D4836 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7486D5D315FDB72C008D4836 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7486D5D415FDB72C008D4836 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7486D5D615FDB72C008D4836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7486D5D715FDB72C008D4836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7486D5D915FDB72C008D4836 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SideSwipe/SideSwipe-Prefix.pch";
+				INFOPLIST_FILE = "SideSwipe/SideSwipe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7486D5DA15FDB72C008D4836 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SideSwipe/SideSwipe-Prefix.pch";
+				INFOPLIST_FILE = "SideSwipe/SideSwipe-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7486D5B415FDB72C008D4836 /* Build configuration list for PBXProject "SideSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7486D5D615FDB72C008D4836 /* Debug */,
+				7486D5D715FDB72C008D4836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7486D5D815FDB72C008D4836 /* Build configuration list for PBXNativeTarget "SideSwipe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7486D5D915FDB72C008D4836 /* Debug */,
+				7486D5DA15FDB72C008D4836 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7486D5B115FDB72C008D4836 /* Project object */;
+}
